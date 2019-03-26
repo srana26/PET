@@ -1,0 +1,45 @@
+/target/
+/*.log
+.project
+.metadata
+bin/**
+.classpath
+.settings/
+.tmp*
+*.class
+
+
+# NetBeans files #
+nbproject/
+nbactions.xml
+nb-configuration.xml
+
+# IntelliJ IDEA files #
+.idea
+*.iml
+
+# General files #
+*.bak
+[‎29-‎01-‎2019 15:31] Jain, A. (Ankur): 
+ # NetBeans files #
+nbproject/
+nbactions.xml
+nb-configuration.xml
+
+# IntelliJ IDEA files #
+.idea
+*.iml
+
+# General files #
+*.bak 
+ # Packages #
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zipqq 
