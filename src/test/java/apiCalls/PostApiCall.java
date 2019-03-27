@@ -5,7 +5,7 @@ import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import net.thucydides.core.annotations.Step;
 
-public class ApiCalls {
+public class PostApiCall {
 
 
     private Response response;
@@ -17,9 +17,9 @@ public class ApiCalls {
                 "        \"id\": "+ id +"," +
                 "        \"category\": {" +
                 "        \"id\": 0," +
-                "        \"name\": \""+ name +"\" " +
+                "        \"name\": \"string\" " +
                 "}," +
-                "   \"name\": \"doggie\"," +
+                "   \"name\": \""+ name +"\"," +
                 "   \"photoUrls\": [" +
                 "   \"string\"" +
                 "   ]," +
@@ -49,7 +49,9 @@ public class ApiCalls {
     public String receive_message(){
 
         ResponseBody body = response.body();
+        body.prettyPrint();
         return body.asString();
     }
+
 
 }
