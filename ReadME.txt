@@ -14,6 +14,6 @@ Steps for Execution:-
 1. Since it follows BDD the individual features or scenarios can be run from any IDE’s where cucumber for java plugin is enabled and all project dependencies are installed (mvn install).
 2. To run the tests from terminal, navigate to the location in project structure where pom.xml is available and type
  >mvn clean verify –Dcucumber.options=”—tags @Smoketest”
-3.	After completion the reports will be available in:
+3. After completion the reports will be available in:
 \target\site\serenity\index.html
 
